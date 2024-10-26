@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
-
+/*
 public class MyFirstVariableAndMethod : MonoBehaviour {
 
     public int currentAge = 22; 
@@ -16,7 +16,7 @@ public class MyFirstVariableAndMethod : MonoBehaviour {
    
     // Start is called before the first frame update
     void Start() {
-/*
+
         (a, b) = Swap(a, b);
         Debug.LogFormat("My swapped value are: a={0}, b={1}", a, b);
 
@@ -27,7 +27,7 @@ public class MyFirstVariableAndMethod : MonoBehaviour {
 
         (float f1, float f2) = Swap (1.5f, 7.3f); 
         Debug.LogFormat("My swapped 1.5f and 7.3f values from the Swap method are: {0}, {1}", f1, f2);
-*/
+
     }
 
     // Update is called once per frame
@@ -39,11 +39,11 @@ public class MyFirstVariableAndMethod : MonoBehaviour {
     /// Swaps two intergers
     /// </summary>
     (int, int) Swap(int m, int n) {
-/*
+
         int swapHelper = m; 
         m = n;
         n = swapHelper;
-*/
+
         return (n, m);
     }
 
@@ -51,11 +51,12 @@ public class MyFirstVariableAndMethod : MonoBehaviour {
     /// Swaps two floats
     /// </summary>
     (float, float) Swap(float m, float n) {
-/*
+
         float swapHelper = m; 
         m = n;
         n = swapHelper;
-*/
+
         return (n, m);
     }
 }
+*/

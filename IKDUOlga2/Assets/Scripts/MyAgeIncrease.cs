@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
 public class MyAgeIncrease : MonoBehaviour
 {
 
@@ -38,3 +38,4 @@ public class MyAgeIncrease : MonoBehaviour
         return ageInitial + numberOfYears; 
     }
 }
+*/

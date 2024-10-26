@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
 public class WeekleyPlans : MonoBehaviour
 {
     public string WeeklyActivities = "Monday";
@@ -59,3 +59,4 @@ public class WeekleyPlans : MonoBehaviour
         }
     }
 }
+*/
