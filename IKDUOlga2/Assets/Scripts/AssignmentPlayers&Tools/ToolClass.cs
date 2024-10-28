@@ -4,8 +4,8 @@ using UnityEngine;
 
 namespace PlayersAndTools {
     public class Tool {
-        public string ToolName { get; set; }
-        public int ToolPower { get; set; }
+        public string ToolName { get; private set; }
+        public int ToolPower { get; private set; }
 
         public Tool() {
             ToolName = "Default Tool Name";

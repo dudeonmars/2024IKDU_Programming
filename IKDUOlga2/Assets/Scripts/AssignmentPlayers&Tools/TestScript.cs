@@ -5,12 +5,11 @@ using UnityEngine;
 
 public class TestScript : MonoBehaviour
 {
-    // Start is called before the first frame update
     void Start()
     {
-        Player player1 = new Player("Jackie Chan", 100);
-        Player player2 = new Player("Bruce Lee", 90);
-        Player player3 = new Player("Jet Li", 80);
+        Player player1 = new("Jackie Chan", 100);
+        Player player2 = new("Bruce Lee", 90);
+        Player player3 = new("Jet Li", 80);
 
         Tool tool1 = new("Fists", 10);
         Tool tool2 = new("Staff", 20);

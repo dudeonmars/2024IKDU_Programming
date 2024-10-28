@@ -4,8 +4,8 @@ using UnityEngine;
 
 namespace PlayersAndTools {
     public class Player {
-        private string CharacterName { get; set; }
-        private int CharacterHealth { get; set; }
+        public string CharacterName { get; private set; }
+        public int CharacterHealth { get; private set; }
 
         public Player() {
             CharacterName = "Default Character Name";
